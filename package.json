@@ -1,10 +1,16 @@
 {
-    "name": "node-express-example",
-    "private": true,
-    "version": "0.0.1",
-    "description": "Node.js express app using Docker for deployment on Convox",
-    "author": "Matt Manning <matt@convox.io>",
-    "dependencies": {
-        "express": "4.12.4"
-    }
+  "name": "node-express-example",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js express app using Docker for deployment on Convox",
+  "author": "Matt Manning <matt@convox.io>",
+  "dependencies": {
+    "express": "4.12.4"
+  },
+  "scripts": {
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
 }

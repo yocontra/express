@@ -1,7 +1,7 @@
 web:
   build: .
-  command: node index.js
+  command: npm start
   ports:
     - 3000:3000
   volumes:
-    - .:/app
+    - .:/usr/src/app
