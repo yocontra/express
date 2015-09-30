@@ -1,17 +1,22 @@
 # Convox: Express
 
-This application inclues:
+This application includes:
 
 * Node.js Express web app
 
 ## Development
 
-    $ docker-compose up
-    $ curl $(boot2docker ip):3000
+First [set up docker locally](https://www.docker.com/toolbox).
+
+    $ git clone
+    $ convox start
+    $ curl $(docker-machine ip):3000
 
 ## Production
 
-TBD
+    $ convox install # only needed once per "rack"
+    $ convox apps create # only needed once per "app"
+    $ convox deploy 
 
 ## License
 
